@@ -1,3 +1,5 @@
 target/
 ./org/
 project/boot
+*.swp
+*.swo
