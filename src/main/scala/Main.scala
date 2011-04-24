@@ -17,5 +17,6 @@ object Main {
     printAFew(new RandomRangeInteger())
     printAFew(new MonotonicRandomInteger())
     printAFew(new PerturbedInteger())
+    printAFew(new org.msync.datagen.strings.String)
   }
 }
