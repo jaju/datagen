@@ -1,5 +1,5 @@
 package org.msync.datagen
-package base
+package numbers
 
 class Integer extends SeqTrait[Int] { 
   private var i : Int = 0

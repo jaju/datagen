@@ -1,5 +1,5 @@
 package org.msync.datagen
-package base
+package numbers
 
 import java.lang.Math
 

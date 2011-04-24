@@ -1,9 +1,9 @@
 import org.msync.datagen.SeqTrait
-import org.msync.datagen.base._
+import org.msync.datagen.numbers._
 
 object Main {
 
-  def printAFew[A](seq : SeqTrait[A], i : Int) : Unit = { 
+  def printAFew[A](seq : SeqTrait[A], i : Int = 15) : Unit = { 
     var counter = i
     while (counter > 0) {
       counter -= 1
@@ -13,13 +13,9 @@ object Main {
   }
 
   def main(args : Array[String]) {
-    var is = new Integer()
-    var irs = new RandomRangeInteger()
-    var mirs = new MonotonicRandomInteger()
-    var pis = new PerturbedInteger()
-    printAFew(is, 10)
-    printAFew(irs, 10)
-    printAFew(mirs, 10)
-    printAFew(pis, 10)
+    printAFew(new Integer())
+    printAFew(new RandomRangeInteger())
+    printAFew(new MonotonicRandomInteger())
+    printAFew(new PerturbedInteger())
   }
 }
