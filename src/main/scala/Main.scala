@@ -3,10 +3,8 @@ import org.msync.datagen.numbers._
 
 object Main {
 
-  def printAFew[A](seq : SeqTrait[A], i : Int = 15) : Unit = { 
-    var counter = i
-    while (counter > 0) {
-      counter -= 1
+  def printAFew[A](seq : SeqTrait[A], i : Int = 15) : Unit = {
+    for (counter <- 0 until i) {
       println(seq.next)
     }
     println("**************** DONE ******************")
