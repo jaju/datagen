@@ -1,4 +1,4 @@
-package org.datagen
+package org.msync.datagen
 package base
 
 class PerturbedInteger(perturbation : Int = 5) extends Integer {

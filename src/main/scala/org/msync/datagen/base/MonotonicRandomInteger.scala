@@ -1,4 +1,4 @@
-package org.datagen
+package org.msync.datagen
 package base
 
 class MonotonicRandomInteger(maxJump : Int = 10) extends Integer {

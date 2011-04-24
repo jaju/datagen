@@ -1,4 +1,4 @@
-package org.datagen
+package org.msync.datagen
 package base
 
 class Integer extends SeqTrait[Int] { 

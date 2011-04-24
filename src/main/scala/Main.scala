@@ -1,5 +1,5 @@
-import org.datagen.SeqTrait
-import org.datagen.base._
+import org.msync.datagen.SeqTrait
+import org.msync.datagen.base._
 
 object Main {
 
